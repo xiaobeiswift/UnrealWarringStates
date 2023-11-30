@@ -16,9 +16,9 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FExperienceReadyAsyncDelegate);  // 声明一
  * 异步等待游戏状态变为准备就绪和有效，并在状态就绪时调用OnReady事件。如果游戏状态已经有效，则立即调用OnReady。
  */
 UCLASS()
-class UNREALWARRINGSTATES_API UAsyncAction_ExperienceReady : public UBlueprintAsyncActionBase
+class UAsyncAction_ExperienceReady : public UBlueprintAsyncActionBase
 {
-	GENERATED_BODY()
+	GENERATED_UCLASS_BODY()
 
 public:
 	// 等待体验被确定并加载

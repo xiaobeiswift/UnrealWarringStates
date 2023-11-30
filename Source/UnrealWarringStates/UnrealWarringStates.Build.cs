@@ -60,7 +60,7 @@ public class UnrealWarringStates : ModuleRules
 			"ClientPilot",
 			"AudioModulation",
 			"EngineSettings",
-			"DTLSHandlerComponent",
+			"DTLSHandlerComponent"
 		});
 
 		// Uncomment if you are using Slate UI
